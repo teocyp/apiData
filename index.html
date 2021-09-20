@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Data</title>
+</head>
+
+<body>
+    <h1>User Data</h1>
+
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Website</th>
+                <th>Email</th>
+                <th>Remove</th>
+                <th>View Details</th>
+            </tr>
+        </thead>
+        <tbody class="content">
+
+        </tbody>
+
+        <div class="modal-bg">
+            <div class="modal">
+
+                <span class="bg-close">X</span>
+            </div>
+        </div>
+    </table>
+
+    <form class="userform" name="userform">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name">
+        <label for="username">Enter your username: </label>
+        <input type="text" name="username" id="username">
+        <label for="website">Enter your website: </label>
+        <input type="text" name="website" id="website">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email">
+        <button class="btn">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
